@@ -12,9 +12,10 @@ public class ejercicio13 {
 
             String price = JOptionPane.showInputDialog(null, "ingrese precio de venta (" + totalVentas + ")");
             totalPrecioVentas = totalPrecioVentas + Float.parseFloat(price);
-
             totalVentas--;
-
         }
+
+        JOptionPane.showMessageDialog(null, "precio total: " + totalPrecioVentas);
+        
     }
 }
